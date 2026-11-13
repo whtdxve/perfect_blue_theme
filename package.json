@@ -1,0 +1,41 @@
+{
+	"name": "perfect-blue-theme",
+	"displayName": "Perfect Blue Theme",
+	"publisher": "04doves",
+	"version": "1.0.0",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.107.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Perfect Blue",
+				"uiTheme": "vs-dark",
+				"path": "./themes/perfect-blue.dark-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "my-icons",
+				"label": "Perfect Blue Icons",
+				"path": "./icons/perfect-blue.icon-theme.json"
+			}
+		],
+		"productIconThemes": [
+			{
+				"id": "my-product-icons",
+				"label": "Perfect Blue Icons",
+				"path": "./product-icons/perfect-blue.product-icons.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1783951167118,
+		"targetPlatform": "undefined",
+		"size": 1626268
+	}
+}
